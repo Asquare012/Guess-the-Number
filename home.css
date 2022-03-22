@@ -36,16 +36,41 @@
   font-weight: bold;
 }
 
-#pick {
+/* screen */
+#screen {
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  padding: 0 0 0 25px;
 }
 
+#screen #yours {
+  display: flex;
+  flex: 50%;
+  justify-content: center;
+  align-items: center;
+  background: url(think.webp);
+  background-size: cover;
+  height: 100px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+#screen #mine {
+  display: flex;
+  flex: 50%;
+  justify-content: center;
+  align-items: center;
+  background: url(robot.jpg);
+  background-size: cover;
+  height: 100px;
+  color: rgb(181, 241, 13);
+  text-shadow: 2px 2px 5px black;
+}
 .numbers {
   background-color: rgb(32, 19, 19);
-  height: 400px;
+  height: 350px;
   margin: 45px 45px 0 45px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);

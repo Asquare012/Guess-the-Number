@@ -1,139 +1,153 @@
 first = () => {
-  let num = 0;
-  let pick = document.getElementById("result");
-  const guess = Math.round(Math.random() * 11);
-  if (guess == num) {
-    pick.innerHTML = "you guessed right, the Number is" + " " + guess;
-    pick.style.backgroundColor = "green";
+  num = 0;
+  guess = Math.round(Math.random() * 11);
+  left = document.getElementById("yours").innerHTML = num;
+  right = document.getElementById("mine").innerHTML = guess;
+  if (left == right) {
+    document.getElementById("result").innerHTML = "Bravo!, you guessed right";
+    document.getElementById("result").style.backgroundColor = "green";
   } else {
-    pick.innerHTML = "Wrong guess, try again!!!";
-    pick.style.backgroundColor = "red";
+    document.getElementById("result").innerHTML = "Oops!, you guessed wrong";
+    document.getElementById("result").style.backgroundColor = "red";
   }
 };
 
 second = () => {
-  let num = 1;
-  let pick = document.getElementById("result");
-  const guess = Math.round(Math.random() * 11);
-  if (guess == num) {
-    pick.innerHTML = "You guessed right, the number is" + " " + guess;
-    pick.style.backgroundColor = "green";
+  num = 1;
+  guess = Math.round(Math.random() * 11);
+  left = document.getElementById("yours").innerHTML = num;
+  right = document.getElementById("mine").innerHTML = guess;
+  if (left == right) {
+    document.getElementById("result").innerHTML = "Bravo!, you guessed right";
+    document.getElementById("result").style.backgroundColor = "green";
   } else {
-    pick.innerHTML = "Wrong guess, try again!!!";
-    pick.style.backgroundColor = "red";
+    document.getElementById("result").innerHTML = "Oops!, you guessed wrong";
+    document.getElementById("result").style.backgroundColor = "red";
   }
 };
 
 third = () => {
-  let num = 2;
-  let pick = document.getElementById("result");
-  const guess = Math.round(Math.random() * 11);
-  if (guess == num) {
-    pick.innerHTML = "You guessed right, the number is" + " " + guess;
-    pick.style.backgroundColor = "green";
+  num = 2;
+  guess = Math.round(Math.random() * 11);
+  left = document.getElementById("yours").innerHTML = num;
+  right = document.getElementById("mine").innerHTML = guess;
+  if (left == right) {
+    document.getElementById("result").innerHTML = "Bravo!, you guessed right";
+    document.getElementById("result").style.backgroundColor = "green";
   } else {
-    pick.innerHTML = "Wrong guess, try again!!!";
-    pick.style.backgroundColor = "red";
+    document.getElementById("result").innerHTML = "Oops!, you guessed wrong";
+    document.getElementById("result").style.backgroundColor = "red";
   }
 };
 
 fourth = () => {
-  let num = 3;
-  let pick = document.getElementById("result");
-  const guess = Math.round(Math.random() * 11);
-  if (guess == num) {
-    pick.innerHTML = "You guessed right, the number is" + " " + guess;
-    pick.style.backgroundColor = "green";
+  num = 3;
+  guess = Math.round(Math.random() * 11);
+  left = document.getElementById("yours").innerHTML = num;
+  right = document.getElementById("mine").innerHTML = guess;
+  if (left == right) {
+    document.getElementById("result").innerHTML = "Bravo!, you guessed right";
+    document.getElementById("result").style.backgroundColor = "green";
   } else {
-    pick.innerHTML = "Wrong guess, try again!!!";
-    pick.style.backgroundColor = "red";
+    document.getElementById("result").innerHTML = "Oops!, you guessed wrong";
+    document.getElementById("result").style.backgroundColor = "red";
   }
 };
+
 fifth = () => {
-  let num = 4;
-  let pick = document.getElementById("result");
-  const guess = Math.round(Math.random() * 11);
-  if (guess == num) {
-    pick.innerHTML = "You guessed right, the number is" + " " + guess;
-    pick.style.backgroundColor = "green";
+  num = 4;
+  guess = Math.round(Math.random() * 11);
+  left = document.getElementById("yours").innerHTML = num;
+  right = document.getElementById("mine").innerHTML = guess;
+  if (left == right) {
+    document.getElementById("result").innerHTML = "Bravo!, you guessed right";
+    document.getElementById("result").style.backgroundColor = "green";
   } else {
-    pick.innerHTML = "Wrong guess, try again!!!";
-    pick.style.backgroundColor = "red";
+    document.getElementById("result").innerHTML = "Oops!, you guessed wrong";
+    document.getElementById("result").style.backgroundColor = "red";
   }
 };
 
 sixth = () => {
-  let num = 5;
-  let pick = document.getElementById("result");
-  const guess = Math.round(Math.random() * 11);
-  if (guess == num) {
-    pick.innerHTML = "You guessed right, the number is" + " " + guess;
-    pick.style.backgroundColor = "green";
+  num = 5;
+  guess = Math.round(Math.random() * 11);
+  left = document.getElementById("yours").innerHTML = num;
+  right = document.getElementById("mine").innerHTML = guess;
+  if (left == right) {
+    document.getElementById("result").innerHTML = "Bravo!, you guessed right";
+    document.getElementById("result").style.backgroundColor = "green";
   } else {
-    pick.innerHTML = "Wrong guess, try again!!!";
-    pick.style.backgroundColor = "red";
+    document.getElementById("result").innerHTML = "Oops!, you guessed wrong";
+    document.getElementById("result").style.backgroundColor = "red";
   }
 };
 
 seventh = () => {
-  let num = 6;
-  let pick = document.getElementById("result");
-  const guess = Math.round(Math.random() * 11);
-  if (guess == num) {
-    pick.innerHTML = "You guessed right, the number is" + " " + guess;
-    pick.style.backgroundColor = "green";
+  num = 6;
+  guess = Math.round(Math.random() * 11);
+  left = document.getElementById("yours").innerHTML = num;
+  right = document.getElementById("mine").innerHTML = guess;
+  if (left == right) {
+    document.getElementById("result").innerHTML = "Bravo!, you guessed right";
+    document.getElementById("result").style.backgroundColor = "green";
   } else {
-    pick.innerHTML = "Wrong guess, try again!!!";
-    pick.style.backgroundColor = "red";
+    document.getElementById("result").innerHTML = "Oops!, you guessed wrong";
+    document.getElementById("result").style.backgroundColor = "red";
   }
 };
+
 eight = () => {
-  let num = 7;
-  let pick = document.getElementById("result");
-  const guess = Math.round(Math.random() * 11);
-  if (guess == num) {
-    pick.innerHTML = "You guessed right, the number is" + " " + guess;
-    pick.style.backgroundColor = "green";
+  num = 7;
+  guess = Math.round(Math.random() * 11);
+  left = document.getElementById("yours").innerHTML = num;
+  right = document.getElementById("mine").innerHTML = guess;
+  if (left == right) {
+    document.getElementById("result").innerHTML = "Bravo!, you guessed right";
+    document.getElementById("result").style.backgroundColor = "green";
   } else {
-    pick.innerHTML = "Wrong guess, try again!!!";
-    pick.style.backgroundColor = "red";
+    document.getElementById("result").innerHTML = "Oops!, you guessed wrong";
+    document.getElementById("result").style.backgroundColor = "red";
   }
 };
 
 nineth = () => {
-  let num = 8;
-  let pick = document.getElementById("result");
-  const guess = Math.round(Math.random() * 11);
-  if (guess == num) {
-    pick.innerHTML = "You guessed right, the number is" + " " + guess;
-    pick.style.backgroundColor = "green";
+  num = 8;
+  guess = Math.round(Math.random() * 11);
+  left = document.getElementById("yours").innerHTML = num;
+  right = document.getElementById("mine").innerHTML = guess;
+  if (left == right) {
+    document.getElementById("result").innerHTML = "Bravo!, you guessed right";
+    document.getElementById("result").style.backgroundColor = "green";
   } else {
-    pick.innerHTML = "Wrong guess, try again!!!";
-    pick.style.backgroundColor = "red";
+    document.getElementById("result").innerHTML = "Oops!, you guessed wrong";
+    document.getElementById("result").style.backgroundColor = "red";
   }
 };
+
 tenth = () => {
-  let num = 9;
-  let pick = document.getElementById("result");
-  const guess = Math.round(Math.random() * 11);
-  if (guess == num) {
-    pick.innerHTML = "You guessed right, the number is" + " " + guess;
-    pick.style.backgroundColor = "green";
+  num = 9;
+  guess = Math.round(Math.random() * 11);
+  left = document.getElementById("yours").innerHTML = num;
+  right = document.getElementById("mine").innerHTML = guess;
+  if (left == right) {
+    document.getElementById("result").innerHTML = "Bravo!, you guessed right";
+    document.getElementById("result").style.backgroundColor = "green";
   } else {
-    pick.innerHTML = "Wrong guess, try again!!!";
-    pick.style.backgroundColor = "red";
+    document.getElementById("result").innerHTML = "Oops!, you guessed wrong";
+    document.getElementById("result").style.backgroundColor = "red";
   }
 };
 
 eleventh = () => {
-  let num = 10;
-  let pick = document.getElementById("result");
-  const guess = Math.round(Math.random() * 10);
-  if (guess == num) {
-    pick.innerHTML = "You guessed right, the number is" + " " + guess;
-    pick.style.backgroundColor = "green";
+  num = 10;
+  guess = Math.round(Math.random() * 11);
+  left = document.getElementById("yours").innerHTML = num;
+  right = document.getElementById("mine").innerHTML = guess;
+  if (left == right) {
+    document.getElementById("result").innerHTML = "Bravo!, you guessed right";
+    document.getElementById("result").style.backgroundColor = "green";
   } else {
-    pick.innerHTML = "Wrong guess, try again!!!";
-    pick.style.backgroundColor = "red";
+    document.getElementById("result").innerHTML = "Oops!, you guessed wrong";
+    document.getElementById("result").style.backgroundColor = "red";
   }
 };
